@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Three.js App</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		<script src="three.js"></script>
+		<script src="scene.js" type="module"></script>
+        
+        <label for="fname">Model URL: </label>
+    	<input type="text" id="url" name="url"><br><br>
+        <input type="submit" id="loadbutton" value="Load" onclick="getURL">
+		<input type="range" id="slider" min="1" max="100" value="50" class="slider">
+        
+        
+	</body>
+</html>
